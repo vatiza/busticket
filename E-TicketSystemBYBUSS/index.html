@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> E Ticket</title>
+    <link rel="stylesheet" href="css/style.css">
+    <div class="header">
+        <a href="#default" class="logo"></a>
+        <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a class="" href="login.html">Login</a>
+            <a class="" href="#registration">Registration</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+</head>
+<class="submit-form">
+    <h2>Search Bus Schedule On: Eagle Paribahan</h2>
+    <id="form-submit" action="" method="get">
+        <div class="row">
+            <div class="col">
+                <fieldset>
+                    <label for="from">From:</label>
+                    <select required name='from' onchange='this.form'>
+                        <option value="">Select a location...</option>
+                        <option value="ARPARA">ARPARA</option>
+                        <option value="BARISHAL">BARISHAL</option>
+                        <option value="BARISHAL-BHANDARIA">BARISHAL-BHANDARIA</option>
+                        <option value="BARISHAL-KHEPUPARA">BARISHAL-KHEPUPARA</option>
+                        <option value="BARISHAL-KUAKATA">BARISHAL-KUAKATA</option>
+                        <option value="BARISHAL-MOTHBARIA">BARISHAL-MOTHBARIA</option>
+                        <option value="BARISHAL-PATHORGHATA">BARISHAL-PATHORGHATA</option>
+                        <option value="BARISHAL-SWARUPKATI">BARISHAL-SWARUPKATI</option>
+                        <option value="BASHUNDIA">BASHUNDIA</option>
+                        <option value="BENAPOLE">BENAPOLE</option>
+                        <option value="CHITTAGONG">CHITTAGONG</option>
+                        <option value="CHUKNAGAR">CHUKNAGAR</option>
+                        <option value="COMILLA">COMILLA</option>
+                        <option value="COXS BAZAR">COXS BAZAR</option>
+                        <option value="CTG-KHAGRACHORI">CTG-KHAGRACHORI</option>
+                        <option value="DHAKA">DHAKA</option>
+                        <option value="DHAKA-ABDULLAHPUR">DHAKA-ABDULLAHPUR</option>
+                        <option value="DHAKA-BADDA">DHAKA-BADDA</option>
+                        <option value="DHAKA-BASUNDHARA">DHAKA-BASUNDHARA</option>
+                        <option value="DHAKA-GABTOLI">DHAKA-GABTOLI</option>
+                        <option value="DHAKA-KALABAGAN-PANTHOPOTH">DHAKA-KALABAGAN-PANTHOPOTH</option>
+                        <option value="DHAKA-KALYANPUR">DHAKA-KALYANPUR</option>
+                        <option value="DHAKA-MALIBAG">DHAKA-MALIBAG</option>
+                        <option value="DHAKA-MOTIJHEEL">DHAKA-MOTIJHEEL</option>
+                        <option value="DHAKA-NABINAGAR">DHAKA-NABINAGAR</option>
+                        <option value="DHAKA-SAYEDABAD">DHAKA-SAYEDABAD</option>
+                        <option value="HEAD OFFICE">HEAD OFFICE</option>
+                        <option value="JASHORE">JASHORE</option>
+                        <option value="JHIKARGACHA">JHIKARGACHA</option>
+                        <option value="KAPILMUNI">KAPILMUNI</option>
+                        <option value="KESHOBPUR">KESHOBPUR</option>
+                        <option value="KHULNA">KHULNA</option>
+                        <option value="MAGURA">MAGURA</option>
+                        <option value="MONIRAMPUR">MONIRAMPUR</option>
+                        <option value="NARAIL">NARAIL</option>
+                        <option value="NAVARON">NAVARON</option>
+                        <option value="NAWAPARA">NAWAPARA</option>
+                        <option value="PAIKGACHA">PAIKGACHA</option>
+                        <option value="SATKHIRA">SATKHIRA</option>
+                        <option value="SHAMNAGAR-SATKHIRA">SHAMNAGAR-SATKHIRA</option>
+                        <option value="SHIMAKHALI">SHIMAKHALI</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="col">
+                <fieldset>
+                    <label for="to">To:</label>
+                    <select required name='to' onchange='this.form'>
+                        <option value="">Select a location...</option>
+                        <option value="ARPARA">ARPARA</option>
+                        <option value="BARISHAL">BARISHAL</option>
+                        <option value="BARISHAL-BHANDARIA">BARISHAL-BHANDARIA</option>
+                        <option value="BARISHAL-KHEPUPARA">BARISHAL-KHEPUPARA</option>
+                        <option value="BARISHAL-KUAKATA">BARISHAL-KUAKATA</option>
+                        <option value="BARISHAL-MOTHBARIA">BARISHAL-MOTHBARIA</option>
+                        <option value="BARISHAL-PATHORGHATA">BARISHAL-PATHORGHATA</option>
+                        <option value="BARISHAL-SWARUPKATI">BARISHAL-SWARUPKATI</option>
+                        <option value="BASHUNDIA">BASHUNDIA</option>
+                        <option value="BENAPOLE">BENAPOLE</option>
+                        <option value="CHITTAGONG">CHITTAGONG</option>
+                        <option value="CHUKNAGAR">CHUKNAGAR</option>
+                        <option value="COMILLA">COMILLA</option>
+                        <option value="COXS BAZAR">COXS BAZAR</option>
+                        <option value="CTG-KHAGRACHORI">CTG-KHAGRACHORI</option>
+                        <option value="DHAKA">DHAKA</option>
+                        <option value="DHAKA-ABDULLAHPUR">DHAKA-ABDULLAHPUR</option>
+                        <option value="DHAKA-BADDA">DHAKA-BADDA</option>
+                        <option value="DHAKA-BASUNDHARA">DHAKA-BASUNDHARA</option>
+                        <option value="DHAKA-GABTOLI">DHAKA-GABTOLI</option>
+                        <option value="DHAKA-KALABAGAN-PANTHOPOTH">DHAKA-KALABAGAN-PANTHOPOTH</option>
+                        <option value="DHAKA-KALYANPUR">DHAKA-KALYANPUR</option>
+                        <option value="DHAKA-MALIBAG">DHAKA-MALIBAG</option>
+                        <option value="DHAKA-MOTIJHEEL">DHAKA-MOTIJHEEL</option>
+                        <option value="DHAKA-NABINAGAR">DHAKA-NABINAGAR</option>
+                        <option value="DHAKA-SAYEDABAD">DHAKA-SAYEDABAD</option>
+                        <option value="HEAD OFFICE">HEAD OFFICE</option>
+                        <option value="JASHORE">JASHORE</option>
+                        <option value="JHIKARGACHA">JHIKARGACHA</option>
+                        <option value="KAPILMUNI">KAPILMUNI</option>
+                        <option value="KESHOBPUR">KESHOBPUR</option>
+                        <option value="KHULNA">KHULNA</option>
+                        <option value="MAGURA">MAGURA</option>
+                        <option value="MONIRAMPUR">MONIRAMPUR</option>
+                        <option value="NARAIL">NARAIL</option>
+                        <option value="NAVARON">NAVARON</option>
+                        <option value="NAWAPARA">NAWAPARA</option>
+                        <option value="PAIKGACHA">PAIKGACHA</option>
+                        <option value="SATKHIRA">SATKHIRA</option>
+                        <option value="SHAMNAGAR-SATKHIRA">SHAMNAGAR-SATKHIRA</option>
+                        <option value="SHIMAKHALI">SHIMAKHALI</option>
+                    </select>
+                </fieldset>
+            </div>
+        </div>
+        </id>
+        <fieldset < label for="start">Journy Date:</label>
+            <input type="date" id="start" name="trip-start" value="" min="2018-01-01" max="">
+
+        </fieldset>
+        <fieldset>
+            <label for="bustype"> Bus Type:</label>
+            <select>
+                <option value="bustpe">Bus Type</option>
+                <option value="ac">AC</option>
+                <option value="nonac">Non AC</option>
+        </fieldset>
+        </select>
+        </class>
+
+
+
+
+
+        </body>
+
+</html>
